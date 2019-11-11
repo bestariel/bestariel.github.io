@@ -42,10 +42,10 @@
     padding: 6rem 4rem 4rem 4rem;   
   }
   .contact-container {
-    width: 70%;
+    width: 80%;
     background: #fff;
     margin: auto;
-    padding: 4rem;
+    padding: 2rem;
   }
   .form-control {
     border: none;
@@ -72,8 +72,9 @@
     display: flex; 
     justify-content: center; 
     background: #fff;
-    padding: 4rem 3rem;
-    width: 70%;
+    padding: 0;
+    width: 90%;
+    height: auto;
   }
   #logo {
     margin-left: 4rem;
