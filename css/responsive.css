@@ -1,0 +1,695 @@
+@media only screen and (max-width: 599px) {
+  body, html {
+    height: 100%;
+    margin: 0;
+    background: #000;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  }  
+  #resume-container {
+    padding-left: 6rem;
+    padding-top: 2rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #668C53;
+    font-weight: 700;
+
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    color: #898989;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #6d6d6d;
+  }
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #668C53;
+  }
+  #home-img {
+    padding-top: 4rem;
+    width: 60%;
+  }
+  #resume {
+    width: 70%;
+    padding: 6rem 4rem 4rem 4rem;   
+  }
+  .contact-container {
+    width: 70%;
+    background: #fff;
+    margin: auto;
+    padding: 4rem;
+  }
+  .form-control {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;    
+    border-radius: 0;
+    box-shadow: none;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  .big-white {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+  #resume-content {
+    display: flex; 
+    justify-content: center; 
+    background: #fff;
+    padding: 4rem 3rem;
+    width: 70%;
+  }
+  #logo {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .footer {
+    color: #668C53;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+  }
+  .fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  .main-container {
+    margin: 6rem auto;
+    width: 70%;
+    height: auto;
+    text-align: center;
+
+  }
+  #resume-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) { 
+  body, html {
+    height: 100%;
+    margin: 0;
+    background: #000;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  }
+  .navbar {
+    margin-top: 6rem;
+    margin-right: 4rem;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    color: #898989;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #6d6d6d;
+  }
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #668C53;
+  }
+  #home-img {
+    padding-top: 4rem;
+    width: 60%;
+  }
+  #resume {
+    width: 70%;
+    padding: 6rem 4rem 4rem 4rem;   
+  }
+  .contact-container {
+    width: 70%;
+    background: #fff;
+    margin: auto;
+    padding: 4rem;
+  }
+  #resume-content {
+    display: flex; 
+    justify-content: center; 
+    background: #fff;
+    padding: 4rem 3rem;
+    width: 70%;
+  }
+  .form-control {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;    
+    border-radius: 0;
+    box-shadow: none;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  .big-white {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+  #logo {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  #resume-container {
+    padding-left: 20rem;
+    padding-top: 4rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #668C53;
+    font-weight: 700;
+
+  }
+  .footer {
+    color: #668C53;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+  }
+  .fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  .main-container {
+    margin: 6rem auto;
+    width: 70%;
+    height: auto;
+    text-align: center;
+
+  }
+  #resume-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  body, html {
+    height: 100%;
+    margin: 0;
+    background: #000;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  }
+  .navbar {
+    margin-top: 6rem;
+    margin-right: 4rem;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    color: #898989;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #6d6d6d;
+  }
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #668C53;
+  }
+  #home-img {
+    padding-top: 4rem;
+    width: 60%;
+  }
+  #resume {
+    width: 70%;
+    padding: 6rem 4rem 4rem 4rem;   
+  }
+  .contact-container {
+    width: 70%;
+    background: #fff;
+    margin: auto;
+    padding: 4rem;
+  }
+  .form-control {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;    
+    border-radius: 0;
+    box-shadow: none;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  .big-white {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+  #logo {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .footer {
+    color: #668C53;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+  }
+  #resume-content {
+    display: flex; 
+    justify-content: center; 
+    background: #fff;
+    padding: 4rem 3rem;
+    width: 70%;
+  }
+  #resume-container {
+    padding-left: 20rem;
+    padding-top: 4rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #668C53;
+    font-weight: 700;
+
+  }
+  .fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  .main-container {
+    margin: 6rem auto;
+    width: 70%;
+    height: auto;
+    text-align: center;
+
+  }
+  #resume-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+}
+
+@media only screen and (min-width: 1201px) { 
+    body, html {
+        height: 100%;
+        margin: 0;
+      }
+      .about-container {
+        margin: 6rem;
+        text-align: center;
+      }
+      #download-resume {
+        text-align: center;
+        font-size: 2rem;
+        color: #668C53;
+        font-weight: 700;
+
+      }
+      #resume-container {
+        padding-left: 20rem;
+        padding-top: 4rem;
+      }
+      .navbar {
+        margin-top: 1rem;
+        margin-right: 6rem;
+      }
+      .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 0 2rem;
+        color: #898989;
+      }
+      .navbar-light .navbar-nav .nav-link:hover {
+        color: #668C53;
+      }
+      .navbar-light .navbar-nav .active>.nav-link {
+        color: #668C53;
+      }
+      #home-img {
+        padding-top: 4rem;
+        width: 60%;
+      }
+      #resume {
+        width: 70%;
+        padding: 2rem 4rem 4rem 4rem;   
+      }
+      .contact-container {
+        width: 70%;
+        background: #fff;
+        margin: auto;
+        padding: 4rem;
+        margin-bottom: 4rem;
+      }
+      .form-control {
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid black;    
+        border-radius: 0;
+        box-shadow: none;
+      }
+      input:focus,
+      select:focus,
+      textarea:focus,
+      button:focus {
+          outline: none;
+      }
+      .btn-primary {
+        background-color: #668C53;
+        border: #668C53;
+      }
+      .btn-primary:hover {
+        background-color: #668C53;
+        border: #668C53;
+      }
+      .big-white {
+        font-size: 3rem;
+        font-weight: 800;
+        text-align: center;
+        margin: auto;
+        color: white;
+      }
+      #logo {
+        margin-left: 4rem;
+        margin-top: 2rem;
+      }
+      .footer {
+        color: #668C53;
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 2rem;
+      }
+      #resume-content {
+        display: flex; 
+        justify-content: center; 
+        background: #fff;
+        padding: 4rem 3rem;
+        width: 70%;
+      }
+      .fade-in {
+        animation: fadeIn ease 5s;
+        -webkit-animation: fadeIn ease 5s;
+        -moz-animation: fadeIn ease 5s;
+        -o-animation: fadeIn ease 5s;
+        -ms-animation: fadeIn ease 5s;
+      }
+      .main-container {
+        margin: 6rem auto;
+        width: 70%;
+        height: auto;
+        text-align: center;
+
+      }
+      #resume-title {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      .resume-header {
+        font-size: 1.5rem;
+        letter-spacing:4px;
+        font-weight: 700;
+      }
+      .bold-text {
+        font-weight: 600;
+      }
+      .resume-link{
+        color: #000;
+        text-decoration: underline;
+      }
+      .modal-dialog {
+        max-width: 80%;
+      }
+      p {
+        margin: 0;
+      }
+      .resume-gray {
+        color: #6d6d6d;
+      }
+
+      @keyframes fadeIn{
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+}
