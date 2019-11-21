@@ -15,7 +15,7 @@
   #download-resume {
     text-align: center;
     font-size: 2rem;
-    color: #668C53;
+    color: #00A08C;
     font-weight: 700;
 
   }
@@ -30,7 +30,7 @@
     color: #6d6d6d;
   }
   .navbar-light .navbar-nav .active>.nav-link {
-    color: #668C53;
+    color: #00A08C;
   }
   #home-img {
     padding-top: 4rem;
@@ -81,7 +81,7 @@
     margin-top: 2rem;
   }
   .footer {
-    color: #668C53;
+    color: #00A08C;
     font-size: 1rem;
     text-align: center;
     padding-bottom: 2rem;
@@ -193,7 +193,7 @@
     color: #6d6d6d;
   }
   .navbar-light .navbar-nav .active>.nav-link {
-    color: #668C53;
+    color: #00A08C;
   }
   #home-img {
     padding-top: 4rem;
@@ -248,12 +248,12 @@
   #download-resume {
     text-align: center;
     font-size: 2rem;
-    color: #668C53;
+    color: #00A08C;
     font-weight: 700;
 
   }
   .footer {
-    color: #668C53;
+    color: #00A08C;
     font-size: 1rem;
     text-align: center;
     padding-bottom: 2rem;
@@ -365,7 +365,7 @@
     color: #6d6d6d;
   }
   .navbar-light .navbar-nav .active>.nav-link {
-    color: #668C53;
+    color: #00A08C;
   }
   #home-img {
     padding-top: 4rem;
@@ -407,7 +407,7 @@
     margin-top: 2rem;
   }
   .footer {
-    color: #668C53;
+    color: #00A08C;
     font-size: 1rem;
     text-align: center;
     padding-bottom: 2rem;
@@ -427,7 +427,7 @@
   #download-resume {
     text-align: center;
     font-size: 2rem;
-    color: #668C53;
+    color: #00A08C;
     font-weight: 700;
 
   }
@@ -525,7 +525,7 @@
       #download-resume {
         text-align: center;
         font-size: 2rem;
-        color: #668C53;
+        color: #00A08C;
         font-weight: 700;
 
       }
@@ -544,10 +544,10 @@
         color: #898989;
       }
       .navbar-light .navbar-nav .nav-link:hover {
-        color: #668C53;
+        color: #00A08C;
       }
       .navbar-light .navbar-nav .active>.nav-link {
-        color: #668C53;
+        color: #00A08C;
       }
       #home-img {
         padding-top: 4rem;
@@ -579,12 +579,12 @@
           outline: none;
       }
       .btn-primary {
-        background-color: #668C53;
-        border: #668C53;
+        background-color: #00A08C;
+        border: #00A08C;
       }
       .btn-primary:hover {
-        background-color: #668C53;
-        border: #668C53;
+        background-color: #00A08C;
+        border: #00A08C;
       }
       .big-white {
         font-size: 3rem;
@@ -598,7 +598,7 @@
         margin-top: 2rem;
       }
       .footer {
-        color: #668C53;
+        color: #00A08C;
         font-size: 1rem;
         text-align: center;
         padding-bottom: 2rem;
