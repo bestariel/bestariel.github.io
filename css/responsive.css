@@ -69,8 +69,6 @@
     color: white;
   }
   #resume-content {
-    display: flex; 
-    justify-content: center; 
     background: #fff;
     padding: 0;
     width: 90%;
@@ -210,8 +208,6 @@
     padding: 4rem;
   }
   #resume-content {
-    display: flex; 
-    justify-content: center; 
     background: #fff;
     padding: 4rem 3rem;
     width: 70%;
@@ -414,8 +410,6 @@
 
   }
   #resume-content {
-    display: flex; 
-    justify-content: center; 
     background: #fff;
     padding: 4rem 3rem;
     width: 70%;
@@ -604,8 +598,6 @@
         padding-bottom: 2rem;
       }
       #resume-content {
-        display: flex; 
-        justify-content: center; 
         background: #fff;
         padding: 4rem 3rem;
         width: 70%;
